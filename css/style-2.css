@@ -1,11 +1,12 @@
 ﻿/********** Template CSS **********/
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
+
 :root {
     --primary: #303c94;
     --secondary: #001064;
@@ -140,14 +141,17 @@
 .bgcolo {
     background-color: #010a35;
     padding: 100px 0px;
-    margin:60px 0px;
+    margin: 60px 0px;
 }
-a{
+
+a {
     cursor: pointer;
 }
+
 .sidd h2 {
     color: #fff;
 }
+
 .sidd {
     text-align: center;
     width: 700px;
@@ -166,6 +170,7 @@ a{
         flex-wrap: wrap;
         gap: 20px;
     }
+
     .whatsapp-btn {
         background-color: #1bd741;
         color: white;
@@ -177,12 +182,14 @@ a{
         gap: 10px;
         border-radius: 50%;
     }
+
     .whatfixed {
         position: fixed;
         left: 16px;
         bottom: 77px;
         z-index: 999;
     }
+
     .back-to-top {
         position: fixed;
         display: none;
@@ -190,6 +197,7 @@ a{
         bottom: 30px;
         z-index: 99;
     }
+
     .call {
         width: 46px;
         height: 46px;
@@ -197,7 +205,8 @@ a{
         text-align: center;
         align-content: center;
         border-radius: 50%;
-    }   
+    }
+
     .call {
         position: fixed;
         left: 18px;
@@ -205,30 +214,37 @@ a{
         z-index: 999;
         cursor: pointer;
     }
+
     #header-carousel .carousel-item {
         height: 60vh !important;
         overflow: hidden;
     }
+
     .pt-5 {
         padding-top: 0rem !important;
     }
-    .video-item{
+
+    .video-item {
         width: 100% !important;
     }
-    .ma-bo{
+
+    .ma-bo {
         margin-bottom: 12px;
     }
-    
+
 }
-.service-item{
+
+.service-item {
     border: 1px solid;
     border-radius: 8px;
     overflow: hidden;
     height: 500px;
 }
-.service-item p{
+
+.service-item p {
     padding: 10px;
 }
+
 .actid {
     visibility: visible;
     opacity: 1;
@@ -256,6 +272,7 @@ a{
     bottom: 88px;
     z-index: 999;
 }
+
 .call {
     width: 52px;
     height: 52px;
@@ -264,7 +281,8 @@ a{
     align-content: center;
     border-radius: 50%;
 }
-.contact{
+
+.contact {
     padding: 8px 30px;
     background-color: #303c94;
     color: white;
@@ -272,9 +290,11 @@ a{
     outline: none;
     border-radius: 6px;
 }
-.call i{
+
+.call i {
     color: #fff;
 }
+
 .call {
     position: fixed;
     left: 32px;
@@ -666,41 +686,49 @@ a{
 .footer .copyright a:hover {
     color: #FFFFFF;
 }
-.about img{
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        object-fit: cover;
+
+.about img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
 }
+
 .counter-section {
     display: flex;
     justify-content: center;
     gap: 200px;
 }
+
 .counter-box {
     text-align: center;
 }
+
 .number {
     font-size: 54px;
     font-weight: bold;
     color: #fff;
 }
+
 .label {
     font-size: 14px;
     text-transform: uppercase;
     color: #fff;
 }
-.expred{
+
+.expred {
     padding: 50px 0px;
     text-align: center;
     background-color: #2b3a94;
 }
-.expred h2{
+
+.expred h2 {
     color: #fff;
     margin-bottom: 40px;
     font-size: 50px;
 }
-.products{
+
+.products {
     width: 24%;
     height: auto;
     border: 1px solid;
@@ -708,22 +736,26 @@ a{
     overflow: hidden;
     padding: 10px;
 }
-.products img{
+
+.products img {
     width: 100%;
     height: 250px;
     background-size: cover;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
-.content{
+
+.content {
     padding: 10px 0px;
 }
-.content h5{
+
+.content h5 {
     font-size: 17px;
     margin-bottom: 10px;
     color: #001064;
 }
-.content button{
+
+.content button {
     background-color: #2b3a94;
     color: #fff;
     padding: 10px 20px;
@@ -733,26 +765,32 @@ a{
     width: 100%;
     border-radius: 10px;
 }
-.headib{
+
+.headib {
     text-align: center;
     margin: 50px 0px;
 }
-.headib p{
+
+.headib p {
     font-size: 40px;
 }
+
 .product-links {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 10px;
 }
-.mededs{
+
+.mededs {
     display: flex;
     align-items: center;
 }
-.dropdon{
+
+.dropdon {
     position: relative;
 }
-.main-drop{
+
+.main-drop {
     position: absolute;
     top: 60px;
     left: 0;
@@ -764,18 +802,26 @@ a{
     overflow: hidden;
     transition: all 0.5s;
 }
-.dropdon:hover .main-drop{
+
+.dropdon:hover .main-drop {
     height: 90px;
 }
-.main-drop li{
+
+.main-drop li {
     padding: 10px 12px;
     border-bottom: 1px solid #ccc;
     width: 100%;
 }
-.main-drop li a{
+
+.main-drop li a {
     color: #5b5e6b;
 }
-.d-flex12{
+
+.mainhead {
+    width: 280px;
+}
+
+.d-flex12 {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -791,19 +837,23 @@ a{
     position: relative;
     margin-bottom: 50px;
 }
+
 .slider-container {
     overflow: hidden;
     width: 100%;
     position: relative;
 }
+
 .slider1 {
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: fit-content;
 }
-.slide img{
+
+.slide img {
     width: 180px;
 }
+
 .slide {
     flex: 0 0 calc(50% / 6);
     text-align: center;
@@ -827,7 +877,9 @@ a{
     display: flex;
     justify-content: space-between;
 }
-.prev, .next {
+
+.prev,
+.next {
     background: rgba(0, 0, 0, 0.7);
     color: white;
     border: none;
@@ -837,17 +889,22 @@ a{
     font-size: 18px;
     transition: 0.3s;
 }
-.next{
+
+.next {
     position: absolute;
     right: -25px;
 }
-.prev{
+
+.prev {
     position: absolute;
     left: -25px;
 }
-.prev:hover, .next:hover {
+
+.prev:hover,
+.next:hover {
     background: rgba(0, 0, 0, 1);
 }
+
 .newmy {
     text-align: center;
     margin-bottom: 40px;
@@ -914,15 +971,18 @@ a{
 .lightbox-next {
     right: 20px;
 }
-.nmeod{
+
+.nmeod {
     padding-right: 15px;
 }
-.nmeod img{
+
+.nmeod img {
     border: 2px solid #fff;
     border-radius: 5px;
     margin-bottom: 10px;
 }
-.icon-new{
+
+.icon-new {
     width: 40px;
     height: 40px;
     border-radius: 10px;
@@ -931,59 +991,77 @@ a{
     line-height: 46px;
     text-align: center;
 }
-.icon-new i{
+
+.icon-new i {
     color: #fff;
     font-size: 20px;
 }
-.footeror{
+
+.footeror {
     display: flex;
     gap: 10px;
     margin-top: 10px;
 }
-@media only screen and (max-width: 600px){
+
+@media only screen and (max-width: 600px) {
     .mededs {
         display: block;
         padding-left: 0;
         align-items: center;
     }
-    .mededs li a{
+
+    .mededs li a {
         margin-left: 0 !important;
     }
-    .main-drop{
+
+    .main-drop {
         position: static;
     }
-    .counter-box{
+
+    .counter-box {
         width: 47%;
     }
-    .counter-section{
+
+    .counter-section {
         row-gap: 20px;
         column-gap: 20px;
         display: flex;
         flex-wrap: wrap;
     }
-    .whatfixed{
+
+    .whatfixed {
         left: 18px;
     }
-    .call{
+
+    .call {
         left: 18px;
     }
-    .footer .copyright{
+
+    .footer .copyright {
         padding: 10px 0px;
     }
-    .form-floating input{
+
+    .form-floating input {
         width: 100% !important;
     }
-    .mainrde{
+
+    .mainrde {
         width: 100%;
     }
-    .d-flex{
+
+    .d-flex {
         flex-direction: column;
     }
-    .products{
+
+    .products {
         width: 100%;
     }
-    .main-drop li{
+
+    .main-drop li {
         padding: 10px 0px;
         border-bottom: none;
+    }
+    .mainhead{
+        width: 230px !important;
     }
 }
